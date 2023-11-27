@@ -29,14 +29,27 @@ body {
 /* MAIN INTERFACE */
 .interface {
   margin: 50px auto;
+  padding-left: 5%;
+  padding-top: 30px;
   background-color: white;
   width: 80%;
   border-radius: 15px;
 }
 
-.button {
+.button1 {
   display: inline-block;
   padding: 5px 5px;
-  border: 1px solid black;
+  border: 1px solid turquoise;
   border-radius: 10px;
+  color: white;
+  background-color: turquoise;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 5px 5px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: lightgray;
+  background-color: white;
 }
