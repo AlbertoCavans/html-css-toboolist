@@ -1,0 +1,42 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* HEADER SETTINGS */
+.header-settings {
+  background-color: white;
+  padding: 0 20px;
+  line-height: 100px;
+}
+
+.first-logo {
+  display: inline;
+  vertical-align: middle;
+}
+
+.header-title {
+  display: inline;
+  vertical-align: middle;
+}
+
+/* MAIN INTERFACE */
+.interface {
+  margin: 50px auto;
+  background-color: white;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
